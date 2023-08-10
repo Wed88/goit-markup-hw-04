@@ -639,6 +639,15 @@ img {
     padding: 0;
 }
 
+.close-btn:hover, .close-btn:focus {
+    background-color: var(--pressedState-color);
+}
+
+.close-btn:hover .close-btn-icon,
+.close-btn:focus .close-btn-icon {
+    fill: var(--whiteBackground-color);
+}
+
 .close-btn-icon {
     stroke: var(--dark-color);
 }
